@@ -50,6 +50,7 @@ function iniciarJogo(){
             if(snake[0].x == snake[1].x && snake[0].y == snake[i].y){
                 clearInterval(jogo);
                 alert('Game Over! Reinicie para jogar novamente')
+                window.location.reload();
             }
     }
 
